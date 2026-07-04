@@ -23,5 +23,4 @@ def filter_layout(df: pd.DataFrame) -> pd.DataFrame:
 
     # Filter điều kiện < 32
     df_filtered = df[layout_number < LAYOUT_LIMIT].copy()
-
     return df_filtered
